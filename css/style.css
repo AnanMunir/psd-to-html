@@ -1,0 +1,284 @@
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 16 px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 27px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 8px;
+	width: 11%;
+	float: left;
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	width: 65%;
+	float: right;
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li {
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	display: inline-block;
+	text-decoration: none;
+    text-transform: uppercase;
+    color:#626262;
+    font-size: 16px;
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li:hover a{
+	color: #141414;
+	transition: 4s;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	margin: 0 auto;
+}
+.banner img{
+	width: 100%;
+}
+/*banner end*/
+/*photodiary start*/
+.photodiary{
+	width: 80%;
+    margin: 0 auto;
+}
+.photodiary h6{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+.photodiary h1{
+	margin: 30px 0;
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
+    text-transform: capitalize;
+    
+}
+.photodiary p{
+	margin: 0;
+    font-size: 14px;
+    word-spacing: 1px;
+    line-height: 28px;
+}
+/*photodiary end*/
+/*lifestyle start*/
+.lifestyle{
+	width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.life_style_1{
+	width: 47%;
+	float: left;
+}
+.life_style_1 img{
+	width: 100%;
+}
+.life_style_1 h6{
+	margin: 0;
+    margin: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.life_style_1 h1{
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.life_style_1 p{
+	font-size: 14px;
+    word-spacing: 1px;
+    line-height: 28px;
+}
+
+
+.life_style_2{
+	width: 47%;
+	float: right;
+}
+.life_style_2 img{
+	width: 100%;
+}
+.life_style_2 h6{
+	margin: 0;
+    margin: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.life_style_2 h1{
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.life_style_2 p{
+	font-size: 14px;
+    word-spacing: 1px;
+    line-height: 28px;
+}
+/*lifestyle end*/
+/*newsletter start*/
+.news{
+	padding: 50px 0;
+    background-color: #f0f0f0;
+}
+.sign_up{
+	width: 25%;
+	margin: 0 auto;
+	position: relative;
+}
+.sign_up h1{
+	font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #626262;
+    text-transform: capitalize;
+    margin-bottom: 60px;
+    
+}
+.sign_up input{
+	padding-right: 36px;
+    padding-left: 5px;
+    width: 89%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+}
+.sign_up input:focus{
+	outline: 0;
+}
+.sign_up img{}
+.icon{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+/*lewsletter end*/
+/*load more*/
+.button{
+	text-align: center;
+    margin: 100px 0;
+   
+}
+button{
+	font-family: 'Playfair Display', serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: #626262;
+    background-color: transparent;
+    border: 1px solid #626262;
+    padding: 20px 30px;
+    -webkit-box-shadow: 11px 4px 19px 0px rgba(171,168,171,0.65);
+    -moz-box-shadow: 11px 4px 19px 0px rgba(171,168,171,0.65);
+    box-shadow: 11px 4px 19px 0px rgba(171,168,171,0.65);
+}
+/*load more*/
+/*footer start*/
+footer{
+	background: #f0f0f0;
+    padding: 30px 0;
+}
+.f_content{
+	width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.terms{
+	width: 30%;
+    float: left;
+}
+.terms ul{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.terms ul li{
+	float: left;
+    margin-right: 15px;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #626262;
+    text-transform: capitalize;
+}
+.social{
+	width: 40%;
+    float: right;
+}
+.social ul{
+	margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 15px;
+    float: right;
+}
+.social ul li{
+	float: left;
+    margin-left: 20px;
+}
+.social ul li a{
+    text-decoration: none;
+    color: #626262;
+    font-size: 18px;
+}
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
